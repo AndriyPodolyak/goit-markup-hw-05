@@ -357,11 +357,21 @@
         </div>
     </Footer>
     <!-- Modal -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button class="modal-close" type="button" data-modal-close>X</button>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, vel.
-            </p>
+            <h2>Leave your contacts and we will call you back</h2>
+            <form name="contact-form">
+                <label for="client-name">Name</label>
+                <input id="client-name" type="text" name="client-name"/>
+                <label for="client-phone">Phone</label>
+                <input id="client-phone" type="tel" name="client-phone"/>
+                <label for="client-email">Email</label>
+                <input id="client-email" type="email" name="client-email"/>
+                <label for="client-comment">Comment</label>
+                <input id="client-comment" type="text" name="client-comment" placeholder="Text input"/>
+
+            </form>
         </div>
     </div>
   </body>
