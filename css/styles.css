@@ -510,10 +510,12 @@ img {
     align-items: center;
     justify-content: center;
     background-color: rgba(46, 47, 66, 0.40);
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
 }
 
 .is-hidden {
-    display: none;
+    opacity: 0;
 }
 
 .modal {
