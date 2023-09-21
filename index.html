@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goit-markup-hw-04</title>
+    <title>goit-markup-hw-05</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,7 +36,7 @@
         <section class="solutions-section">
             <div class="container">
                 <h1 class="solutions-header">Effective Solutions for Your Business</h1>
-                <button class="solutions-button" type="button">Order Service</button>
+                <button class="solutions-button" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <!--Our advantages section-->
@@ -356,5 +356,13 @@
             </div>
         </div>
     </Footer>
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close" type="button" data-modal-close>X</button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, vel.
+            </p>
+        </div>
+    </div>
   </body>
 </html>

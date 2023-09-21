@@ -500,3 +500,32 @@ img {
 .svg-icons {
     fill: #f4f4fd;
 }
+
+/* Modal */
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(46, 47, 66, 0.40);
+}
+
+.is-hidden {
+    display: none;
+}
+
+.modal {
+    position: relative;
+    width: 408px;
+    border-radius: 4px;
+    background-color: #FCFCFC;
+    padding: 24px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
