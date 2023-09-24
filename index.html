@@ -36,7 +36,7 @@
         <section class="solutions-section">
             <div class="container">
                 <h1 class="solutions-header">Effective Solutions for Your Business</h1>
-                <button class="solutions-button" type="button" data-modal-open>Order Service</button>
+                <button class="solutions-button" type="button">Order Service</button>
             </div>
         </section>
         <!--Our advantages section-->
@@ -357,20 +357,32 @@
         </div>
     </Footer>
     <!-- Modal -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-open">
         <div class="modal">
-            <button class="modal-close" type="button" data-modal-close>X</button>
+            <button class="modal-close" type="button">X</button>
             <h2>Leave your contacts and we will call you back</h2>
             <form name="contact-form">
-                <label for="client-name">Name</label>
-                <input id="client-name" type="text" name="client-name"/>
-                <label for="client-phone">Phone</label>
-                <input id="client-phone" type="tel" name="client-phone"/>
-                <label for="client-email">Email</label>
-                <input id="client-email" type="email" name="client-email"/>
-                <label for="client-comment">Comment</label>
-                <input id="client-comment" type="text" name="client-comment" placeholder="Text input"/>
-
+                <div>
+                    <label for="client-name">Name</label>
+                    <input id="client-name" type="text" name="client-name" />
+                </div>
+                <div>
+                    <label for="client-phone">Phone</label>
+                    <input id="client-phone" type="tel" name="client-phone" />
+                </div>
+                <div>
+                    <label for="client-email">Email</label>
+                    <input id="client-email" type="email" name="client-email" />
+                </div>
+                <div>
+                    <label for="client-comment">Comment</label>
+                    <textarea id="client-comment" name="client-comment" placeholder="Text input"></textarea>
+                </div>
+                <div>
+                    <input id="client-accept" type="checkbox" name="client-accept"/>
+                    <label for="client-accept">I accept the terms and conditions of the Privacy Policy</label>
+                </div>
+                <button class="submit">Send</button>
             </form>
         </div>
     </div>
