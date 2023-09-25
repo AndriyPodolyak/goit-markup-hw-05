@@ -8,6 +8,15 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 p {
     margin: 0;
 }
@@ -157,6 +166,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .solutions-header {
@@ -164,7 +174,7 @@ ul {
     font-family: Roboto; sans-serif;
     text-align: center;
     font-size: 56px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -172,10 +182,6 @@ ul {
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.solutions-header:hover {
-    background-color: #404BBF;
 }
 
 .solutions-button {
@@ -301,6 +307,7 @@ img {
 
 .section-p-team {
     text-align: center;
+    margin: 8px;
 }
 
 .team-icons {
@@ -456,7 +463,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-bottom: 16px;
 }
 
 .social-media {
