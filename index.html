@@ -366,13 +366,16 @@
             </button>
             <p class="modal-p">Leave your contacts and we will call you back</p>
             <form name="contact-form">
-                <div class="client-name-div">
+                <div class="client-div">
                     <label class="client-name-label" for="user-name">Name</label>
                     <div class="user-name">
-                        <input id="user-name" type="text" name="user-name" />
+                        <input class="input-name" id="user-name" type="text" name="user-name" />
+                        <svg class="icon-name" widnt="18" height="24">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
                     </div>
                 </div>
-                <div>
+                <div class="client-div">
                     <label for="client-phone">Phone</label>
                     <input id="client-phone" type="tel" name="client-phone" />
                 </div>
