@@ -518,6 +518,7 @@ img {
 
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-label {
@@ -682,7 +683,6 @@ textarea {
 }
 
 .input-client:focus + .icon-svg {
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
     fill: #4D5AE5;
 }
@@ -736,7 +736,7 @@ textarea {
 .checkbox-span {
     width: 16px;
     height: 16px;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
@@ -771,6 +771,6 @@ textarea {
 .input-hidden-class:checked + .checkbox-label > .checkbox-span {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    fill: #F4F4FD;
     border-color: #404bbf;
 }
